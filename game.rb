@@ -12,8 +12,9 @@ until number == user_number
 	elsif(number > user_number) 
 		puts "My number less than #{user_number}. Your point is #{point}. Pick any number between 0 and 50"
 	end
-		point -= 1
-		user_number = gets.to_i
+
+	point -= 1
+	user_number = gets.to_i
 end
 	
 puts "You knew it. Your total point is #{point}"
